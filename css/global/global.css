@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
+  background: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0px;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit; /*a não herda o valor do seu pai por padrao, por isso colocamos ele para herdar*/
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
